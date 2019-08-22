@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>baf9e7672f13730029a749e72799b64c</id>
+        <name>TheySaidSo Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 18:12:23</sys_created_on>
+        <sys_id>72f9e7672f13730029a749e72799b64d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TheySaidSo Flow</sys_name>
+        <sys_package display_value="TheySaidSo REST API" source="x_378281_theysaids">2ac747af2f9f330029a749e72799b6ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TheySaidSo REST API">2ac747af2f9f330029a749e72799b6ea</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_72f9e7672f13730029a749e72799b64d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 18:12:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

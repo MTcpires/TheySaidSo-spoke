@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="category" label="category" language="en" table="var__m_sys_hub_action_input_86f7cf6f2f9f330029a749e72799b69f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <help/>
+            <hint>choose a category to get a quote from</hint>
+            <label>category</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_86f7cf6f2f9f330029a749e72799b69f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-22 16:02:53</sys_created_on>
+            <sys_id>3d5c4f632fdf330029a749e72799b6e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="TheySaidSo REST API" source="x_378281_theysaids">2ac747af2f9f330029a749e72799b6ea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TheySaidSo REST API">2ac747af2f9f330029a749e72799b6ea</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_86f7cf6f2f9f330029a749e72799b69f_category_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-22 16:02:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

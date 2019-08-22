@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get famous quotes from TheySaidSo</description>
+        <internal_name>theysaidso_spoke</internal_name>
+        <label_cache>[{"name":"{{action.category}}","label":"action➛category","type":"action","ref":""},{"name":"{{step[36985ec4-699a-44ea-90a7-d99850f3f05b].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[36985ec4-699a-44ea-90a7-d99850f3f05b].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].}}","label":"step➛Parse returned data➛","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].q}}","label":"step➛Parse returned data➛q","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].qu}}","label":"step➛Parse returned data➛qu","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].quo}}","label":"step➛Parse returned data➛quo","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].quot}}","label":"step➛Parse returned data➛quot","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].quote}}","label":"step➛Parse returned data➛quote","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].a}}","label":"step➛Parse returned data➛a","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].au}}","label":"step➛Parse returned data➛au","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].aut}}","label":"step➛Parse returned data➛aut","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].auth}}","label":"step➛Parse returned data➛auth","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].autho}}","label":"step➛Parse returned data➛autho","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].author}}","label":"step➛Parse returned data➛author","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].c}}","label":"step➛Parse returned data➛c","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].ca}}","label":"step➛Parse returned data➛ca","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].cat}}","label":"step➛Parse returned data➛cat","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].cate}}","label":"step➛Parse returned data➛cate","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].categ}}","label":"step➛Parse returned data➛categ","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].catego}}","label":"step➛Parse returned data➛catego","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].categor}}","label":"step➛Parse returned data➛categor","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].category}}","label":"step➛Parse returned data➛category","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].t}}","label":"step➛Parse returned data➛t","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].ti}}","label":"step➛Parse returned data➛ti","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].tit}}","label":"step➛Parse returned data➛tit","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].titl}}","label":"step➛Parse returned data➛titl","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].title}}","label":"step➛Parse returned data➛title","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].co}}","label":"step➛Parse returned data➛co","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].cop}}","label":"step➛Parse returned data➛cop","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].copy}}","label":"step➛Parse returned data➛copy","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].copyr}}","label":"step➛Parse returned data➛copyr","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].copyri}}","label":"step➛Parse returned data➛copyri","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].copyrig}}","label":"step➛Parse returned data➛copyrig","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].copyrigh}}","label":"step➛Parse returned data➛copyrigh","type":"step","ref":""},{"name":"{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].copyright}}","label":"step➛Parse returned data➛copyright","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>TheySaidSo Spoke</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 15:43:47</sys_created_on>
+        <sys_id>86f7cf6f2f9f330029a749e72799b69f</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>TheySaidSo Spoke</sys_name>
+        <sys_package display_value="TheySaidSo REST API" source="x_378281_theysaids">2ac747af2f9f330029a749e72799b6ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TheySaidSo REST API">2ac747af2f9f330029a749e72799b6ea</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_86f7cf6f2f9f330029a749e72799b69f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 18:12:13</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=86f7cf6f2f9f330029a749e72799b69f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=86f7cf6f2f9f330029a749e72799b69f"/>
+    <sys_element_mapping action="delete_multiple" query="id=86f7cf6f2f9f330029a749e72799b69f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>author</field>
+        <id>86f7cf6f2f9f330029a749e72799b69f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 16:13:53</sys_created_on>
+        <sys_id>07de8be32fdf330029a749e72799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 16:13:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_86f7cf6f2f9f330029a749e72799b69f</table>
+        <value>{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].author}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>category</field>
+        <id>86f7cf6f2f9f330029a749e72799b69f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 16:13:53</sys_created_on>
+        <sys_id>8fde8be32fdf330029a749e72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 16:13:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_86f7cf6f2f9f330029a749e72799b69f</table>
+        <value>{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].category}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>copyright</field>
+        <id>86f7cf6f2f9f330029a749e72799b69f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 16:16:06</sys_created_on>
+        <sys_id>635f43272fdf330029a749e72799b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 16:16:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_86f7cf6f2f9f330029a749e72799b69f</table>
+        <value>{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].copyright}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>hostname</field>
+        <id>86f7cf6f2f9f330029a749e72799b69f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 16:13:53</sys_created_on>
+        <sys_id>0bde8be32fdf330029a749e72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 16:13:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_86f7cf6f2f9f330029a749e72799b69f</table>
+        <value>{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].host_1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>quote</field>
+        <id>86f7cf6f2f9f330029a749e72799b69f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 16:13:53</sys_created_on>
+        <sys_id>cbde8be32fdf330029a749e72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 16:13:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_86f7cf6f2f9f330029a749e72799b69f</table>
+        <value>{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].quote}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>86f7cf6f2f9f330029a749e72799b69f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 16:13:53</sys_created_on>
+        <sys_id>43de8be32fdf330029a749e72799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 16:13:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_86f7cf6f2f9f330029a749e72799b69f</table>
+        <value>{{step[e790b3c3-32b8-471b-9617-3df7b79e5093].title}}</value>
+    </sys_element_mapping>
+</record_update>
